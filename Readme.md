@@ -8,10 +8,10 @@ A containerized coding practice environment for: [exercism.io](https://exercism.
 docker build -t psollars/exercism .
 ```
 
-Alternatively, you can provide an argument (`artifact`) to the build to specify the exercism executable artifact that you'd like to use. The artifact should be located in `./artifacts`
+Alternatively, you can provide this argument to the build to specify the exercism executable that you'd like to use. The artifact should be located in `./artifacts`.
 
 ```
--build-arg artifact=exercism.tar.gz
+--build-arg artifact=exercism.tar.gz
 ```
 
 ## Run
